@@ -37,5 +37,5 @@ function Location(query, obj){
 
 function Weather(obj){
   this.forecast = obj.weather.description;
-  this.time = obj.valid_datel;
+  this.time = obj.valid_date;
 }
